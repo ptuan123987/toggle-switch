@@ -1,0 +1,31 @@
+position : Vị trí
+
+    + Fix :
+        - nằm trên các thành phần khác 
+        - top left right bottom so với toàn bộ body ; 
+        - chỉ dùng 1 chiều ngang và 1 chiều dọc(nếu có 2 cái theo    chiều dọc thì nó lấy cái thứ hai )
+        - cha của fixed là body , chỉ so với body ko so với cái khác 
+    
+    + relative: quan hệ tương đốivới nhau
+        - Liên quan đến nhau
+    
+    + absolute: quan hệ tuyệt đối với nhau
+        - khá giống fixed , nhưng đi theo relative
+    
+    + cặp đôi huyền thoại :
+        - position : relative đặt cho thẻ cha 
+        - position : absolute đặt cho thẻ con
+        - absolute luôn theo relative (tìm lên để theo)
+        - absolute lấy relative làm gốc tọa độ
+    + relative  : cha (ông, cụ, kị)
+    
+    + sticky : không phải tất cả các trình duyệt đều hỗ trợ
+        - giữ cho div ko giữ ra ngoài
+        - dùng cho nav-bar , quảng cáo
+
+    + ý nghĩa trong thực tế : làm ô chat trong thực tế
+    + overflow : scroll
+    + switch :
+    
+    + border-radius : độ bo tròn góc
+
